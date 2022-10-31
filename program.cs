@@ -198,6 +198,425 @@ class Program1
    }
 }
 
+// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+//using System;
+//class Pgm
+//{
+//    static void Main()
+//    {
+//        int Age = Convert.ToInt32(Console.ReadLine());
+//        if (Age >= 18)
+//        {
+//            Console.WriteLine("You are eligible for voting");
+//        }
+//        else
+//        {
+//            Console.WriteLine("You are not eligible for voting");
+//        }
+//    }
+//}
+
+
+
+
+
+//SWITCH
+//Console.WriteLine("Enter Your Number");
+//int UserNo = Convert.ToInt32(Console.ReadLine());
+//switch (UserNo)
+//{
+//    case 1:
+//        Console.WriteLine("You are bad");
+//        break;
+
+//    case 2:
+//        Console.WriteLine("You are avg");
+//        break;
+
+//    case 3:
+//        Console.WriteLine("You are good");
+//        break;
+
+//    default:
+//        Console.WriteLine("i doonoo");
+//        break;
+//}
+
+//Console.WriteLine("Enter Your Number");
+//int UserNo = Convert.ToInt32(Console.ReadLine());
+//switch (UserNo)
+//{
+//    case 1:
+//    case 15:
+//    case 3:
+//        Console.WriteLine("Your number is {0}", UserNo);
+//        break;
+//    default:
+//        Console.WriteLine("YOUR NUM IS NOT MENTIONED");
+//        break;
+//}
+
+//Console.WriteLine("Enter your Age");
+//int AGE = Convert.ToInt32(Console.ReadLine());
+//switch (AGE)
+//{
+//    case 18:
+//        Console.WriteLine("YOU ARE ELIGIBLE FOR VOTING");
+//        break;
+
+//    case 17:
+//        Console.WriteLine("YOUR ARE NOT ELIGIBLE");
+//        break;
+
+//    default:
+//        Console.WriteLine("NOT SURE ABOUT IT!");
+//        break;
+//}
+
+//Console.WriteLine("Enter you age:");
+//int Age = Convert.ToInt32(Console.ReadLine());
+//switch (Age)
+//{
+//    case 18:
+//        Console.WriteLine("YOU ARE ELIGIBLE");
+//        break;
+
+//    case 17:
+//        Console.WriteLine("YOU ARE NOT ELIGIBLE");
+//        break;
+
+//    default:
+//        Console.WriteLine("Specify your age properly!!");
+//        break;
+//}
+
+
+//produce a bill amount using switch
+
+//int CoffeeCost = 0;
+
+//Console.WriteLine("1-small, 2-medium, 3-large");
+
+//int CustomerChoice = Convert.ToInt32(Console.ReadLine());
+
+//switch (CustomerChoice)
+//{
+//    case 1:
+//        CoffeeCost += 1;
+//        Console.WriteLine("Your coffee price is: {0}", CoffeeCost);
+//        break;
+
+//    case 2:
+//        CoffeeCost += 3;
+//        Console.WriteLine("Your coffee price is: {0}",CoffeeCost);
+//        break;
+
+//    case 3:
+//        CoffeeCost += 4;
+//        Console.WriteLine("Your coffee price is: {0}", CoffeeCost);
+//        break;
+
+//    default:
+//        Console.WriteLine("Coffee isnt ready!");
+//        Console.WriteLine(CoffeeCost);
+//        break;
+//}
+
+
+
+//Start:
+//int CoffeeCost = 0;
+//int TotalCost = 0;
+//TotalCost = TotalCost + CoffeeCost;
+
+//Console.WriteLine("Please select your coffe size: 1-small, 2-medium, 3-large, 4-want more");
+
+//int CustomerChoice = Convert.ToInt32(Console.ReadLine());
+
+//switch (CustomerChoice)
+//{
+//    case 1:
+//        CoffeeCost += 1;
+//TotalCost = CoffeeCost + TotalCost;
+//Console.WriteLine("Your coffee price is: {1}", CoffeeCost);
+//break;
+
+//case 2:
+//    CoffeeCost += 3;
+//TotalCost = CoffeeCost + TotalCost;
+//Console.WriteLine("Your coffee price is: {2}", CoffeeCost);
+//break;
+
+//case 3:
+//    CoffeeCost += 4;
+//TotalCost = CoffeeCost + TotalCost;
+//Console.WriteLine("Your coffee price is: {3}", CoffeeCost);
+//break;
+
+//case 4:
+//    goto Start;
+
+
+//default:
+//    Console.WriteLine("Coffee isnt ready!");
+//    Console.WriteLine(CoffeeCost);
+//    goto Start;
+
+//Console.WriteLine("THE TOTAL BILL AMOUNT IS: {0}", CoffeeCost);
+//}
+
+//Console.WriteLine("Do you like to bouy another COFFEE:: YES OR NO ");
+//String UserChoice = Console.ReadLine();
+//switch (UserChoice.ToUpper())
+//{
+//    case "YES":
+//        TotalCost = CoffeeCost;
+//        goto Start;
+
+//    case "NO":
+//        break;
+
+//}
+//Console.WriteLine("THANKS FOR PURCHASING");
+//Console.WriteLine("THE TOTAL BILL AMOUNT IS: {0}", CoffeeCost);
+
+
+//print the even values using the target variable
+//Console.WriteLine("Enter your target variable:");
+//int Target = int.Parse(Console.ReadLine());
+//int Start = 0;
+//Console.WriteLine(Start);
+//while(Start <= Target)
+//{
+//    Start = Start + 2;
+//    Console.WriteLine(Start);
+//}
+
+
+//print the odd values using the target variable
+//Console.WriteLine("Enter your target variable:");
+//int Target = int.Parse(Console.ReadLine());
+//int Start = 1;
+//String UserChoice;
+
+//while (Start < Target)
+//{
+//    Start = Start + 2;
+//    Console.Write(Start + " ");
+//}
+
+//FOR AND FOR-EACH LOOPS
+
+//sum of n numbers ?
+
+//Console.WriteLine("enter the numbers you want to sum");
+//int n = int.Parse(Console.ReadLine());
+//int sum = 0;
+//for(int i = 0; i <= n; i++)
+//{
+//    sum = sum + i;
+//    Console.Write(sum);
+//}
+
+//for-each
+//int n = int.Parse(Console.ReadLine());
+//Console.WriteLine("enter the array elements:");
+//int[] pascal = new int[n];
+
+//pascal[0] = 25;
+//pascal[1] = 28;
+//pascal[2] = 29;
+//pascal[3] = 31;
+////pascal[4] = 21;
+
+//foreach(int i in pascal)
+//{
+//    Console.WriteLine(i);
+//}
+
+// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+
+//using 1 instance ad 1 static methods
+//using System;
+//class pgm1
+//{
+//    public static void Main()
+//    {
+//        Console.WriteLine("this is all about methods.");
+//        pgm1 p = new pgm1();
+//        p.EvenNum();
+//    }
+
+//    public void EvenNum()
+//    {
+//        int strt = 0;
+//        int n = int.Parse(Console.ReadLine());
+//        for(int i = 0; i <= n; i++)
+//        {
+//            Console.WriteLine(strt);
+//            strt = strt + 2;
+
+//        }
+//    }
+//}
+
+//using 2 static methods in the same program
+//using System;
+//class demo
+//{
+//    public static void Main()
+//    {
+//        Console.WriteLine("this is all about methods.");
+//        demo.EvenNum();
+//    }
+
+//    public static void EvenNum()
+//    {
+//        int strt = 0;
+//        int n = int.Parse(Console.ReadLine());
+//        for (int i = 0; i <= n; i++)
+//        {
+//            Console.WriteLine(strt);
+//            strt = strt + 2;
+
+//        }
+//    }
+//}
+
+//USING METHIDS BY PASSING THE PARAMETERS
+//using System;
+//class demo
+//{
+//    public static void Main()
+//    {
+//        Console.WriteLine("this is all about methods.");
+//        demo.EvenNum(20);
+//    }
+
+//    public static void EvenNum(int n)
+//    {
+//        int strt = 0;
+//        for (int i = 0; i <= n; i++)
+//        {
+//            Console.WriteLine(strt);
+//            strt = strt + 2;
+
+//        }
+//    }
+//}
+
+//sum of 2no's using methods and parameters
+//using System;
+//class demo
+//{
+//    public static void Main()
+//    {
+//        demo d = new demo();
+//        int sum = d.Add(3, 5);
+//        Console.WriteLine(sum);
+//    }
+
+//    public int Add(int a, int b)
+//    {
+//        return a + b;
+//    }
+//}
+
+//pass by value
+//using System;
+//class Coffeee
+//{
+//    public static void Main()
+//    {
+//        int i = 0;
+//        Demo1(i);
+//        Console.WriteLine(i);
+//    }
+//    public static void Demo1(int j)
+//    {
+//        j = 2529;
+//    }
+//}
+
+//pass by reference
+//using System;
+//class Coffeee
+//{
+//    public static void Main()
+//    {
+//        int i = 0;
+//        Pascal(ref i);
+//        Console.WriteLine(i);
+//    }
+//    public static void Pascal(ref int j)
+//    {
+//        j = 2529;
+//    }
+//}
+
+//out parameter
+//using System;
+//class DEMO
+//{
+//    public static void Main()
+//    {
+//        int sum = 0;
+//        int product = 0;
+//        greeshma(2, 10, out sum, out product);
+//        Console.WriteLine(sum);
+//        Console.WriteLine(product);
+
+//    }
+
+//    public static void greeshma(int a, int b, out int sum, out int product)
+//    {
+//        sum = a + b;
+//        product = a * b;
+//    }
+//}
+
+//parameters array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
